@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: 14.14
 
-      - name: Install Deoendecies
-        run: yarn install
+      - name: Install Dependecies
+        run: npm install
       
       - name: Build App
-        run: yarn build
+        run: npm run build
 
       - name: Semancti Release
         env:
